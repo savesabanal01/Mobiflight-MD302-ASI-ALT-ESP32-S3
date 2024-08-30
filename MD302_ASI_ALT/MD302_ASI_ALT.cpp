@@ -125,7 +125,6 @@ void MD302_ASI_ALT::set(int16_t messageID, char *setPoint)
           setPowerSaveMode(true);
         else if (atoi(setPoint) == 0)
           setPowerSaveMode(false);
-
         break;
     case 0:
         // output = (uint16_t)data;
@@ -160,24 +159,24 @@ void MD302_ASI_ALT::set(int16_t messageID, char *setPoint)
 void MD302_ASI_ALT::update()
 {
     // Do something which is required regulary
-//   if(!powerSaveFlag)
-//   {
-//     analogWrite(TFT_BL, instrumentBrightness);
-//     if(prevScreenRotation != screenRotation)
-//     {
-//         tft.setRotation(screenRotation);
-//         prevScreenRotation = screenRotation;
-//     }
-//     drawSpeedIndicator();
-//     drawAltitudeIndicator();
-//     drawAll();
-//    }
-//    else digitalWrite(TFT_BL, LOW);
-//    
+  if(!powerSaveFlag)
+  {
     analogWrite(TFT_BL, instrumentBrightness);
+    if(prevScreenRotation != screenRotation)
+    {
+        tft.setRotation(screenRotation);
+        prevScreenRotation = screenRotation;
+    }
     drawSpeedIndicator();
     drawAltitudeIndicator();
     drawAll();
+   }
+   else digitalWrite(TFT_BL, LOW);
+   
+    // analogWrite(TFT_BL, instrumentBrightness);
+    // drawSpeedIndicator();
+    // drawAltitudeIndicator();
+    // drawAll();
 //    
 }
 
