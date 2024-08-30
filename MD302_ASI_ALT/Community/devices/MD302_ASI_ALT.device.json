@@ -1,0 +1,51 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+      "Label": "MD302 ASI ALT ESP32-S3",
+      "Type": "MD302_ASI_ALT",
+      "Author": "Save Sabanal",
+      "URL": "https://github.com/savesabanal01/Mobiflight-MD302-ASI-ALT-ESP32-S3/tree/MD302_ASI_ALT",
+      "Version" : "1.0.0"
+    },
+    "Config": {
+      "Pins": [
+        "Pin 1",
+        "Pin 2",
+        "Pin 3"
+      ],
+      "isI2C": false
+    },
+    "MessageTypes": [
+      {
+        "id": 0,
+        "label": "Show Airspeed Value",
+        "description": "$ will be displayed as Air speed value"
+      },
+      {
+        "id": 1,
+        "label": "Show Altitude Value",
+        "description": "$ will be displayed as Altitude value"
+      },
+      {
+        "id": 2,
+        "label": "Show Baro Value",
+        "description":  "$ will be displayed as Baro value"
+      },
+      {
+        "id": 3,
+        "label": "Show Heading Value",
+        "description":  "$ will be displayed as Heading value"
+      },
+      {
+        "id": 4,
+        "label": "Show Instrument Brightness Value",
+        "description":  "$ will be displayed as Instrument Brightness value"
+      },
+      {
+        "id": 100,
+        "label": "Sceen Rotation",
+        "description":  "0 = Normal, 2 = Flipped"
+      }
+    ]
+  }
+  
