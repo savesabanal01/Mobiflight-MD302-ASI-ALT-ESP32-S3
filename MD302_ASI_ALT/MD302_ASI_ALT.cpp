@@ -172,11 +172,17 @@ void MD302_ASI_ALT::update()
   //   drawAll();
   //  }
   //  else digitalWrite(TFT_BL, LOW);
-   
+
     analogWrite(TFT_BL, instrumentBrightness);
+    if(prevScreenRotation != screenRotation)
+    {
+        tft.setRotation(screenRotation);
+        prevScreenRotation = screenRotation;
+    }
     drawSpeedIndicator();
     drawAltitudeIndicator();
     drawAll();
+
    
 }
 
