@@ -22,8 +22,8 @@ private:
     float heading = 0;
     float instrumentBrightnessRatio = 1;
     int instrumentBrightness = 255;
-    int screenRotation = 0;
-    int prevScreenRotation = 0;
+    int screenRotation = 2;
+    int prevScreenRotation = 2;
     bool powerSaveFlag = false;
 
     // Variables to store the 1000s, 100s, 10s and 1s
