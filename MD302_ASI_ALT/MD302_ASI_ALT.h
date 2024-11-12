@@ -23,6 +23,7 @@ private:
     float instrumentBrightnessRatio = 1;
     int instrumentBrightness = 255;
     int screenRotation = 2;
+    int baroMode = 0;
     int prevScreenRotation = 2;
     bool powerSaveFlag = false;
 
@@ -48,6 +49,7 @@ private:
     void setHeading(float value);
     void setInstrumentBrightnessRatio(float value);
     void setScreenRotation(int value);
+    void setBaroMode(int value);
     void drawSpeedIndicator();
     void drawAltitudeIndicator();
     void drawSpeedIndicatorLines();

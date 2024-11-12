@@ -4,11 +4,11 @@
     <config guid="a12a7fdb-d3f7-4d32-b6c9-13b26646f624">
       <active>true</active>
       <description>Airspeed</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit2/gauges/indicators/airspeed_kts_pilot" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="0" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="0" value="$" />
         <preconditions />
         <configrefs />
       </settings>
@@ -16,11 +16,11 @@
     <config guid="e392854e-58d0-4a72-b4b5-304fb68e7b91">
       <active>true</active>
       <description>Altitude</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit2/gauges/indicators/altitude_ft_pilot" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="1" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="1" value="$" />
         <preconditions />
         <configrefs />
       </settings>
@@ -28,11 +28,11 @@
     <config guid="e4397074-e236-42b6-930e-b7dcd1b15c9b">
       <active>true</active>
       <description>Baro</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit/misc/barometer_setting" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="2" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="2" value="$" />
         <preconditions />
         <configrefs />
       </settings>
@@ -40,11 +40,11 @@
     <config guid="e27c124b-fccb-4ec7-85c1-6e7b1c5d12e3">
       <active>true</active>
       <description>Heading</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit2/gauges/indicators/heading_AHARS_deg_mag_pilot" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="3" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="3" value="$" />
         <preconditions />
         <configrefs />
       </settings>
@@ -52,11 +52,11 @@
     <config guid="0e48cc7b-1dde-456e-988c-aa6ae691e5a7">
       <active>true</active>
       <description>Instrument Brightness</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit2/electrical/instrument_brightness_ratio_manual[1]" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="4" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="0" value="$" />
         <preconditions />
         <configrefs />
       </settings>
@@ -64,13 +64,27 @@
     <config guid="42e8e28f-e39d-494b-ae3c-3ad420759d38">
       <active>true</active>
       <description>Screen Rotation</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="Variable" varType="number" varName="ScreenRotation" varExpression="$" />
         <test type="Float" value="1" />
         <modifiers>
           <transformation active="True" expression="0" />
         </modifiers>
-        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" trigger="normal" customType="" customName="MD302 ASI ALT ESP32-S3" messageType="100" value="$" />
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="100" value="$" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9f791f2c-8d36-41b4-b1a8-e0e8e8d26bf0">
+      <active>true</active>
+      <description>Baro Mode</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="Baro Mode" varExpression="$" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="0" />
+        </modifiers>
+        <display type="CustomDevice" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" trigger="normal" customType="" customName="MD302 ASI ALT ES" messageType="101" value="0" />
         <preconditions />
         <configrefs />
       </settings>
@@ -80,7 +94,7 @@
     <config guid="fac91a94-9bb9-480e-8059-85f3fc14009d">
       <active>true</active>
       <description>Baro Setting</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" name="Encoder" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" name="Encoder" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="XplaneInputAction" inputType="Command" path="sim/instruments/barometer_down" expression="" />
           <onLeftFast type="XplaneInputAction" inputType="Command" path="sim/instruments/barometer_down" expression="" />
@@ -94,7 +108,7 @@
     <config guid="64aad1ec-16a2-40ab-b800-fbe0c6168dce">
       <active>true</active>
       <description>Baro 29.92</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.0, Culture=neutral, PublicKeyToken=null" serial="MD302 ASI ALT ESP32-S3/ SN-24587CDE6C94" name="Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.0, Culture=neutral, PublicKeyToken=null" serial="MD302 ASI ALT ESP32-S3/ SN-3C8427C84E5C" name="Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="XplaneInputAction" inputType="Command" path="sim/instruments/barometer_2992" expression="" />
         </button>

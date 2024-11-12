@@ -151,6 +151,10 @@ void MD302_ASI_ALT::set(int16_t messageID, char *setPoint)
         /* code */
         setScreenRotation(atoi(setPoint));
         break;
+    case 101:
+        /* code */
+        setBaroMode(atoi(setPoint));
+        break;
     default:
         break;
     }
@@ -308,7 +312,12 @@ void MD302_ASI_ALT::drawAltitudeIndicator()
   baroBoxSpr.setTextDatum(MC_DATUM);
   // baroBoxSpr.setFreeFont(FSSB12);
   baroBoxSpr.loadFont(digitsS);
-  baroBoxSpr.drawString(String(baro), baro_box_width / 2, baro_box_height / 2 + 10);
+
+  if(baroMode == 0)
+    baroBoxSpr.drawString(String(baro), baro_box_width / 2, baro_box_height / 2 + 10);
+  else if (baroMode == 1)
+    baroBoxSpr.drawString(String((int)round(baro * 33.863886666667)), baro_box_width / 2, baro_box_height / 2 + 10);
+
   baroBoxSpr.pushToSprite(&mainSpr, 88, 10, TFT_BLACK);
 
   // tft.setViewport(120, 0, 240, 320);
@@ -457,6 +466,12 @@ void MD302_ASI_ALT::setScreenRotation(int value)
 {
   screenRotation = value;
 }
+
+void MD302_ASI_ALT::setBaroMode(int value)
+{
+  baroMode = value;
+}
+
 void MD302_ASI_ALT::setInstrumentBrightnessRatio(float value)
 {
   instrumentBrightnessRatio = value;

@@ -46,6 +46,12 @@
         "label": "Sceen Rotation",
         "description":  "0 = Normal, 2 = Flipped"
       }
+      ,
+      {
+        "id": 101,
+        "label": "Baro Mode",
+        "description":  "0 = inHg, 1 = hpa"
+      }
     ]
   }
   
