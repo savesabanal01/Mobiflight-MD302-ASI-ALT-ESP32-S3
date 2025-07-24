@@ -26,7 +26,7 @@
     "FirmwareBaseName": "MD302_ASI_ALT_esp32s3",
     "FirmwareExtension": "bin",
     "FriendlyName": "MD302 ASI ALT ESP32-S3",
-    "LatestFirmwareVersion": "2.5.2",
+    "LatestFirmwareVersion": "2.5.1",
     "MobiFlightType": "MD302_ASI_ALT_ESP32-S3",
     "ResetFirmwareFile": "reset.raspberry_pico_flash_nuke.uf2",
     "CustomDeviceTypes": [
